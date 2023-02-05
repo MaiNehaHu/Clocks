@@ -32,28 +32,32 @@ body {
   position: absolute;
   top: 50%;
 
-  transform-origin: 100%;
+  transform-origin: 100%; /* so that it'll rotate from last point*/
   transform: rotate(90deg);
   transition: all;
   transition-timing-function: linear;
 }
 .hour-hand {
-  width: 50%;
+  width: 30%; /** 30% of the clock face*/
   height: 10px;
   transform: rotate(90deg);
   background: green;
   box-shadow: 0px 0px 25px green;
   border-radius: 2rem;
-  
+  position: relative;
+  top: 49%;
+  left: 20%;
 }
 .min-hand {
-  width: 50%;
+  width: 40%;
   height: 7px;
   transform: rotate(90deg);
   background: blue;
   box-shadow: 0px 0px 25px blue;
   border-radius: 2rem;
-  
+  position: relative;
+  top: 46%;
+  left: 10%;
 }
 .sec-hand {
   width: 50%;
