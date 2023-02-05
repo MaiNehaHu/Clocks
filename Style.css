@@ -51,18 +51,18 @@ body {
 .min-hand {
   width: 40%;
   height: 7px;
-  transform: rotate(90deg);
+  transform: rotate(0deg);
   background: blue;
   box-shadow: 0px 0px 25px blue;
   border-radius: 2rem;
   position: relative;
-  top: 46%;
+  top: 47%;
   left: 10%;
 }
 .sec-hand {
   width: 50%;
   height: 3px;
-  transform: rotate(90deg);
+  transform: rotate(0deg);
   background: yellow;
   box-shadow: 0px 0px 25px yellow;
   border-radius: 2rem;
@@ -74,4 +74,118 @@ body {
   justify-content: center;
   font-size: 2.6rem;
   text-shadow: 0px 0px 5px red;
+}
+.center{
+  background: white;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  position: relative;
+}
+@media screen and (min-width:1300px) {
+  
+  .center{
+    top: 43%;
+    left: 46%;
+  }
+}
+@media screen and (max-width:1300px) {
+  .center{
+    top: 42%;
+    left: 45.5%;
+  }
+}
+@media screen and (max-width:1200px) {
+  .center{
+    top: 41%;
+    left: 45%;
+  }
+}
+@media screen and (max-width:1100px) {
+  .center{
+    top: 40.5%;
+    left: 44%;
+  }
+}
+@media screen and (max-width:1000px) {
+  .center{
+    top: 40%;
+    left: 44%;
+  }
+  .min-hand{
+    top: 46.5%;
+  }
+}
+@media screen and (max-width:900px) {
+  .center{
+    top: 38.5%;
+    left: 43%;
+  }
+}
+@media screen and (max-width:800px) {
+  .center{
+    top: 36%;
+    left: 42.5%;
+  }
+  .min-hand{
+    top: 45%;
+  }
+}
+@media screen and (max-width:700px) {
+  .center{
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 37%;
+    left: 44%;
+  }
+}
+@media screen and (max-width:600px) {
+  .center{
+    width: 1.2rem;
+    height: 1.2rem;
+    top: 36%;
+    left: 44%;
+  }
+  .min-hand{
+    top: 43%;
+  }
+}
+@media screen and (max-width:500px) {
+  .center{
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 32.5%;
+    left: 41%;
+  }
+  .sec-hand{
+    width: 60%;
+    left: -10%;
+    top: 52%;
+  }
+}
+@media screen and (max-width:450px) {
+  .center{
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 31.5%;
+    left: 40.5%;
+  }
+  .sec-hand{
+    width: 60%;
+    left: -10%;
+    top: 52%;
+  }
+}
+@media screen and (max-width:400px) {
+  .center{
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 30%;
+    left: 39%; 
+  }
+  .sec-hand{
+    width: 60%;
+    left: -10%;
+    top: 52%;
+  }
 }
