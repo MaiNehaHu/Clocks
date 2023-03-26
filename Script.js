@@ -22,8 +22,12 @@ function setDate() {
   /**if digit is one digited then attach 0 before the  number */
   console.log(hour + ":" + min + ":" + sec + " " +label);
   
-  let clock = document.getElementById('digital')
-  clock.innerHTML = `${hour}:${min}:${sec} ${label}`
+  let clock = document.getElementById('time')
+  clock.innerHTML = `${hour}:${min}:${sec}`
+
+  let ampm = document.getElementById('ampm')
+  ampm.innerHTML = ` ${label}`
+
 }
 
 setInterval(setDate, 1000);
