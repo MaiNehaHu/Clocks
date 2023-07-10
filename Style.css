@@ -71,6 +71,7 @@ body {
 #digital {
   display: flex;
   width: 100%;
+  user-select: none;
   justify-content: center;
   font-family: 'Monoton', cursive;
   font-size: 2.6rem;
